@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		81EE83DE2CDF61D100716654 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE83DC2CDF61D100716654 /* Person+CoreDataClass.swift */; };
+		81EE83DF2CDF61D100716654 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE83DD2CDF61D100716654 /* Person+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		81EE83C12CDF5D6F00716654 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EE83DC2CDF61D100716654 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		81EE83DD2CDF61D100716654 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +52,8 @@
 		81EE83B82CDF5D6F00716654 = {
 			isa = PBXGroup;
 			children = (
+				81EE83DC2CDF61D100716654 /* Person+CoreDataClass.swift */,
+				81EE83DD2CDF61D100716654 /* Person+CoreDataProperties.swift */,
 				81EE83C32CDF5D6F00716654 /* CoreDataProject */,
 				81EE83C22CDF5D6F00716654 /* Products */,
 			);
@@ -132,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EE83DE2CDF61D100716654 /* Person+CoreDataClass.swift in Sources */,
+				81EE83DF2CDF61D100716654 /* Person+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
